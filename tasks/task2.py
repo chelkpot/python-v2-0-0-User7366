@@ -2,7 +2,13 @@
 
 def solve():
 # Ниже пишите решение задачи
+    a, b, c = map(int, input("").split())
+    
+    ac = 3
+    bc = ac+2
+    cc = bc+7
 
+    print ((ac * a) + (bc * b) + (cc * c))
    
 
    
